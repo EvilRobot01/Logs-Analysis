@@ -1,0 +1,8 @@
+What are the most popular three articles of all time?
+[('Candidate is jerk, alleges rival', 2, 338647L), ('Bears love berries, alleges bear', 1, 253801L), ('Bad things gone, say good people', 3, 170098L)]
+
+Who are the most popular article authors of all time?
+[('Ursula La Multa', 1, 507594L), ('Anonymous Contributor', 1, 507594L), ('Markoff Chaney', 1, 507594L), ('Rudolf von Treppenwitz', 1, 507594L), ('Anonymous Contributor', 2, 423457L), ('Markoff Chaney', 2, 423457L), ('Rudolf von Treppenwitz', 2, 423457L), ('Ursula La Multa', 2, 423457L), ('Anonymous Contributor', 3, 170098L), ('Markoff Chaney', 3, 170098L), ('Rudolf von Treppenwitz', 3, 170098L), ('Ursula La Multa', 3, 170098L), ('Rudolf von Treppenwitz', 4, 84557L), ('Ursula La Multa', 4, 84557L), ('Anonymous Contributor', 4, 84557L), ('Markoff Chaney', 4, 84557L)]
+
+On which days did more than 1% of requests lead to errors?
+[(datetime.date(2016, 7, 17), Decimal('2.26'))]
