@@ -28,9 +28,16 @@ This project extract information from a database using DB-API in Vagrant.  It is
  ### Creating view:
   1. Create a view of errors using:
   
-     `create view error_table as select date(time),round(100.0*sum(case log.status when '200 OK' 
-      then 0 else 1 end)/count(log.status),2) as con_error from log group by date(time) 
-      order by con_error desc;`
+     ```sql
+     CREATE VIEW error_table AS
+     SELECT date(time),
+         ROUND(100.0 * SUM(CASE log.status WHEN '200 OK' THEN 0 ELSE 1 END)/
+         COUNT(log.status),2) AS con_error
+     FROM log
+     GROUP BY date(time) 
+     ORDER BY con_error DESC;
+      
+     ```
 
  ### Checkint the logs:
   1. From /vagrant directory run logsNews.py:
