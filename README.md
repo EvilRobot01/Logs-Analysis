@@ -3,7 +3,7 @@ This project extract information from a database using DB-API in Vagrant.  It is
 
 ## How to run:
 1. Download and install [Python3](https://www.python.org/download/releases/3.0/), [Vagrant](https://www.vagrantup.com/), and [VirtualBox](https://www.virtualbox.org/).
-1. Download [fullstack-nanodegree-vm repository](https://github.com/udacity/fullstack-nanodegree-vm).
+1. Replace vagrant default confiduration with Vagrantfile from this directory.
 1. Download the [database](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip).
 1. Unzip this file and extract newsdata.sql.
 
